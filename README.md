@@ -2,7 +2,7 @@
 
 ## Project information
 
-Site publishes at: to be determined
+Site publishes at: https://zilva149.github.io/bit-frontend-3-matrox/
 
 Design: in the img folder
 

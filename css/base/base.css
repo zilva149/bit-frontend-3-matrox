@@ -1,2 +1,56 @@
 /* 1000px ir 600px */
 /* hero min-height 100vh */
+/* dribble, tumblr, rss, facebook, twitter, linkedin, instagram */
+/* progress bar'o dizainas turi problemu, jo neimanoma padaryti su CSS, reikes JS pagalbos */
+/* progress bar'as turi loading animacija, tai padaryti galima idejus ji i teva bei animuot 100% ilgi */
+/* mouse'as turi judejimo aukstyn-zemyn animacija su ratuko isnykimu gale */
+
+/* ============
+    Imports
+============= */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+/* =============
+    Base Styles
+============= */
+
+:root {
+    --primary-bg: #03a9f3;
+    --secondary-bg: #ea1e63;
+    --primary-font: #777;
+    --light-font: #fff;
+    --dark-font: #111;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: var(--primary-font);
+}
+
+h1, h2, h3, h4 {
+    color: var(--dark-font);
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}

@@ -17,12 +17,156 @@
     <link rel="stylesheet" href="./css/components/form.css">
     <link rel="stylesheet" href="./css/components/mouse.css">
     <link rel="stylesheet" href="./css/components/progress-bar.css">
-    <!-- custom pages styles -->
+    <!-- custom styles -->
     <link rel="stylesheet" href="./css/pages/home.css">
     <!-- JS scripts -->
     <script src="./js/clock.js" defer></script>
 </head>
 <body>
-    <h1>Content</h1>
+
+    <!-- hero section -->
+    <section class="hero" id="hero">
+        <!-- smaller container for centering -->
+        <div class="container-sm">
+            <!-- hero content -->
+            <img src="./img/logo.png" alt="logo" class="logo">
+            <h1 class="hero-heading">coming soon</h1>
+            <p class="hero-text">An awesome new company for web resorces is coming very soon. Enter your email to request an early invitation.</p>
+            <!-- countdown clock -->
+            <div class="clock-container">
+                <div class="box">
+                    <p class="time-left">56</p>
+                    <h4 class="time-type" id="days">days</h4>
+                </div>
+                <div class="box">
+                    <p class="time-left">56</p>
+                    <h4 class="time-type" id="hours">hours</h4>
+                </div>
+                <div class="box">
+                    <p class="time-left">56</p>
+                    <h4 class="time-type" id="mins">minutes</h4>
+                </div>
+                <div class="box">
+                    <p class="time-left">56</p>
+                    <h4 class="time-type" id="secs">seconds</h4>
+                </div>
+            </div>
+            <!-- end of countdown clock -->
+            <!-- subsciption form -->
+            <form class="form subscribe-form">
+                <input type="email" name="email" placeholder="Type your email...">
+                <button type="submit" class="btn subscribe-btn">subscribe now</button>
+            </form>
+            <!-- end of subscription form -->
+            <!-- mouse with animation -->
+            <div class="mouse">here will be mouse</div>
+        </div>
+        <!-- end of smaller container -->
+    </section>
+    <!-- end of hero section -->
+
+    <!-- info section -->
+    <section class="info">
+        <!-- bigger container for centering -->
+        <div class="container-xl">
+            <!-- about article -->
+            <article class="about">
+                <!-- about article info -->
+                <h2 class="info-heading">about startup</h2>
+                <p class="info-text">Matrox material design multi-purpose html template. It comes with hige content and background variants. <span class="highlight-info">Matrox</span> is coming very soon. We are nearly there.</p>
+                <!-- single progress bar -->
+                <div class="progress-bar">
+                    <div class="progress-info">
+                        <p class="area">UX Design</p>
+                        <p class="value">90%</p>
+                    </div>
+                    <div class="progress-container">
+                        <div class="progress-value-container">
+                            <div class="progress-value"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of single progress bar -->
+                <!-- single progress bar -->
+                <div class="progress-bar">
+                    <div class="progress-info">
+                        <p class="area">Web Design</p>
+                        <p class="value">86%</p>
+                    </div>
+                    <div class="progress-container">
+                        <div class="progress-value-container">
+                            <div class="progress-value"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of single progress bar -->
+                <!-- single progress bar -->
+                <div class="progress-bar">
+                    <div class="progress-info">
+                        <p class="area">Web Development</p>
+                        <p class="value">86%</p>
+                    </div>
+                    <div class="progress-container">
+                        <div class="progress-value-container">
+                            <div class="progress-value"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of single progress bar -->
+            </article>
+            <!-- end of about article -->
+            <!-- question article -->
+            <article class="question">
+                <!-- question article info -->
+                <h2 class="info-heading">have any questions?</h2>
+                <p class="info-text">You can use contact from below or contact us via e-mail at <address class="highlight-info"><a href="mailto:trendytheme@gmail.com">trendytheme@gmail.com</a></address>. Contact form is fully working and very easy to customize.</p>
+                <form class="form message-form">
+                    <div class="user-info">
+                        <input type="text" name="name" placeholder="Name">
+                        <input type="email" name="email" placeholder="Email">
+                    </div>
+                    <div class="message">
+                        <textarea name="message" cols="30" rows="10">Message</textarea>
+                    </div>
+                    <button type="submit" class="btn message-btn">send message</button>
+                </form>
+            </article>
+            <!-- end of question article -->
+        </div>
+        <!-- end of bigger container -->
+    </section>
+    <!-- end of info section -->
+
+    <!-- footer -->
+    <footer class="footer">
+        <!-- scroll to the top button -->
+        <a href="#hero" class="btn scroll-top-btn">scroll to top</a>
+        <!-- end of scroll to the top button -->
+        <!-- smaller container for centering -->
+        <div class="container-sm">
+            <!-- icons container -->
+            <div class="icons">
+                <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-dribbble"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-tumblr"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="icon"><i class="fa-solid fa-rss"></i></a>
+            </div>
+            <!-- end of icons container -->
+            <!-- footer info -->
+            <img src="./img/logo-light.png" alt="footer logo" class="logo-footer">
+            <div class="copyright-info">
+                <p>Copyright &copy; 2016 <span class="highlight-footer">Matrox</span></p>
+                <p>All Rights Reserved</p>
+                <p>Designed By <span class="highlight-footer">TrendyTheme</span></p>
+            </div>
+            <p class="footer-text">Matrox pack includes complete websites not just homepages, it comes with full website demos. Over 200+ ready html files only for 17$. Purchase <span class="highlight-footer">Matrox</span> Now!</p>
+            <!-- end of footer info -->
+        </div>
+        <!-- end of smaller container -->
+    </footer>
+    <!-- end of footer -->
 </body>
 </html>
