@@ -1,0 +1,38 @@
+.mouse {
+    margin-top: -15px;
+    width: 30px;
+    height: 60px;
+    border: 3px solid var(--light-font);
+    border-radius: 999999px;
+    position: relative;
+}
+
+.mouse::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translateX(-50%);
+    width: 5px;
+    height: 5px;
+    background-color: var(--light-font);
+    animation-name: upDown;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+
+@keyframes upDown {
+    0% {
+        top: 25%;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        top: 80%;
+        opacity: 0;
+    }
+}

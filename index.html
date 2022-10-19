@@ -28,10 +28,15 @@
     <section class="hero" id="hero">
         <!-- smaller container for centering -->
         <div class="container-sm">
-            <!-- hero content -->
+            <!-- hero logo -->
             <img src="./img/logo.png" alt="logo" class="logo">
-            <h1 class="hero-heading">coming soon</h1>
-            <p class="hero-text">An awesome new company for web resorces is coming very soon. Enter your email to request an early invitation.</p>
+            <!-- end of hero logo -->
+            <!-- hero text -->
+            <div class="hero-text">
+                <h1 class="hero-heading">coming soon</h1>
+                <p class="hero-text">An awesome new company for web resorces is coming very soon. Enter your email to request an early invitation.</p>
+            </div>
+            <!-- end of hero text -->
             <!-- countdown clock -->
             <div class="clock-container">
                 <div class="box">
@@ -59,7 +64,7 @@
             </form>
             <!-- end of subscription form -->
             <!-- mouse with animation -->
-            <div class="mouse">here will be mouse</div>
+            <div class="mouse"></div>
         </div>
         <!-- end of smaller container -->
     </section>
@@ -126,12 +131,15 @@
                         <input type="email" name="email" placeholder="Email">
                     </div>
                     <div class="message">
-                        <textarea name="message" cols="30" rows="10">Message</textarea>
+                        <textarea name="message" cols="30" rows="10" placeholder="Message"></textarea>
                     </div>
                     <button type="submit" class="btn message-btn">send message</button>
                 </form>
             </article>
             <!-- end of question article -->
+            <!-- scroll to the top button -->
+            <a href="#hero" class="btn scroll-top-btn"><i class="fa-solid fa-chevron-up"></i></a>
+            <!-- end of scroll to the top button -->
         </div>
         <!-- end of bigger container -->
     </section>
@@ -139,9 +147,6 @@
 
     <!-- footer -->
     <footer class="footer">
-        <!-- scroll to the top button -->
-        <a href="#hero" class="btn scroll-top-btn">scroll to top</a>
-        <!-- end of scroll to the top button -->
         <!-- smaller container for centering -->
         <div class="container-sm">
             <!-- icons container -->

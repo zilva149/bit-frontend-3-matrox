@@ -1,0 +1,25 @@
+.clock-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box > p {
+    color: var(--light-font);
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.box > h4 {
+    color: var(--light-font);
+    font-size: 0.9rem;
+    font-weight: 400;
+}

@@ -1,0 +1,50 @@
+/* ============
+    Base Form
+============= */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.form input,
+.form textarea {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid var(--primary-font);
+    box-shadow: 0 2px 2px -5px var(--primary-font);;
+    padding: 8px 0px;
+    resize: none;
+    outline: none;
+    color: var(--primary-font);
+}
+
+/* =================
+    Subscribe Form
+================= */
+
+.subscribe-form {
+    align-items: center;
+    width: 90%;
+}
+
+.subscribe-form input::placeholder {
+    color: var(--light-font);
+}
+
+.subscribe-form input {
+    border-bottom-color: var(--light-font);
+    color: var(--light-font);
+}
+
+/* ==================
+    Message Form
+================== */
+
+.message-form .user-info {
+    display: flex;
+    gap: 20px;
+}

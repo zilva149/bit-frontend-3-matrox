@@ -1,0 +1,47 @@
+/* ==============
+    Hero Section
+============== */
+
+.hero {
+    background-color: var(--primary-bg);
+}
+
+.hero h1 {
+    font-size: 3.4rem;
+    margin-bottom: 5px;
+}
+
+.logo {
+    width: 40px;
+}
+
+.hero-text {
+    text-align: center;
+}
+
+.hero-text > p {
+    line-height: 1.4;
+    font-size: 1.1rem;
+    color: var(--grey-font);
+}
+
+/* ==============
+    Info Section
+=============== */
+
+.info .container-xl {
+    padding: 5rem 0;
+    position: relative;
+}
+
+/* ==========
+    Footer
+========== */
+
+.footer {
+    background-color: var(--primary-bg);
+}
+
+.footer .container-sm {
+    padding: 2rem 0 4rem;
+}

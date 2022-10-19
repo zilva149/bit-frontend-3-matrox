@@ -1,0 +1,44 @@
+/* ================
+    Base Buttons
+================ */
+
+.btn {
+    background-color: var(--secondary-bg);
+    color: var(--light-font);
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+
+/* ==================
+    Subscribe Button
+================== */
+
+.subscribe-btn {
+    padding: 15px 45px;
+}
+
+/* ================
+    Message Button
+================ */
+
+.message-btn {
+    align-self: flex-end;
+}
+
+/* ================
+    Scroll Button
+================= */
+
+.scroll-top-btn {
+    position: absolute;
+    border-radius: 50%;
+    font-size: 2rem;
+    right: 0;
+    bottom: 0px;
+    transform: translate(25%, 50%);
+    padding: 10px 15px;
+}

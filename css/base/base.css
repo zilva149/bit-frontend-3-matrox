@@ -18,7 +18,8 @@
 :root {
     --primary-bg: #03a9f3;
     --secondary-bg: #ea1e63;
-    --primary-font: #777;
+    --primary-font: #999;
+    --grey-font: #666;
     --light-font: #fff;
     --dark-font: #111;
 }
