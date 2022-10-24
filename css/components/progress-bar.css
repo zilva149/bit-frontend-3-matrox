@@ -1,0 +1,44 @@
+.progress-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .6rem;
+}
+
+.progress-container {
+    position: relative;
+    height: .6rem;
+    border-radius: 0 99999px 99999px 0;
+    background-color: rgba(153, 153, 153, 0.4);
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+
+.progress-value-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.progress-value {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--primary-bg);
+    animation-name: loadUp;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes loadUp {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}

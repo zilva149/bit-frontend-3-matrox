@@ -4,6 +4,9 @@
 
 .hero {
     background-color: var(--primary-bg);
+    background-image: url('../../img/image-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hero h1 {
@@ -32,6 +35,24 @@
 .info .container-xl {
     padding: 5rem 0;
     position: relative;
+    font-size: 0.9rem;
+}
+
+.info-heading {
+    margin-bottom: 2rem;
+}
+
+.info-text {
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+
+.address {
+    display: inline;
+}
+
+.highlight-info {
+    color: var(--secondary-bg);
 }
 
 /* ==========
@@ -44,4 +65,77 @@
 
 .footer .container-sm {
     padding: 2rem 0 4rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding: 2.5rem 0;
+    border-bottom: 2px solid var(--light-font);
+}
+
+.icon {
+    color: var(--light-font);
+    transition: 0.25s all ease-in-out;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+} 
+
+.icon i {
+    pointer-events: none;
+}
+
+.logo-footer {
+    width: 250px;
+    margin-bottom: 2rem;
+}
+
+.copyright-info,
+.footer-text {
+    line-height: 2;
+    font-size: 0.9rem;
+}
+
+.copyright-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.copyright-info p {
+    position: relative;
+}
+
+.copyright-info p:nth-child(1)::after {
+    content: '|';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -0.75rem;
+    transform: translateX(50%);
+
+}
+
+.copyright-info p:nth-child(2)::after {
+    content: '|';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -0.75rem;
+    transform: translateX(50%);
+}
+
+.footer-text {
+    text-align: center;
+}
+
+.highlight-footer {
+    color: var(--light-font);
 }
