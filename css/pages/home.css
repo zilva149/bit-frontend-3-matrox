@@ -7,6 +7,7 @@
     background-image: url('../../img/image-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 1rem 0;
 }
 
 .hero h1 {
@@ -138,4 +139,32 @@
 
 .highlight-footer {
     color: var(--light-font);
+}
+
+/* =================
+    Media Queries
+================= */
+
+@media screen and (max-width: 676px) {
+    .info-heading {
+            text-align: center;
+        }
+    
+        .info-text {
+            text-align: center;
+        }
+
+    .copyright-info {
+        flex-direction: column;
+        gap: .5rem;
+        margin-bottom: 1rem;
+    }
+
+    .copyright-info p:nth-child(1)::after {
+        content: none;
+    }
+
+    .copyright-info p:nth-child(2)::after {
+        content: none;
+    }
 }

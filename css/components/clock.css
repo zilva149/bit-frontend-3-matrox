@@ -23,3 +23,15 @@
     font-size: 0.9rem;
     font-weight: 400;
 }
+
+/* ================
+    Media Queries
+================ */
+
+@media screen and (max-width: 676px) {
+    .clock-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+}
