@@ -15,6 +15,7 @@ Design: in the img folder
 - background image
 - smooth scroll to top button
 - icons
+- animations
 - media queries for responsive design
 - countdown clock with JS
 
